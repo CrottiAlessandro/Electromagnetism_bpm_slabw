@@ -67,7 +67,7 @@ for i=1:np
   end
   rl = (n02(il-1)-n02(il))/(n02(il-1)+n02(il));
 %    
-  A(i,i) = -(2.-rr-rl).*hx + (k0^2 * n02(i)) ;% ....complete here; % principal diagonal elements <========================================================================
+  A(i,i) = -(2.-rr-rl).*hx + (k0^2 * n02(i)) ;
 end
 
 % solving the eigenvalue problem
@@ -81,11 +81,11 @@ figure(1)
 j = 0;
 for i=np:-1:1
   beta2 = D(i,i);
-  if real(beta2) > 0 %...complete here % eigenvalue must be real and positive for guided modes <========================================================================
+  if real(beta2) > 0 
     tneff = sqrt(beta2)./k0;  % calculate the effective index
     % if effective index is in between the refractive index of
     % the core and the cladding then is a guided mode
-    if ncl <= tneff & tneff <= nco%if .... complete here <========================================================================
+    if ncl <= tneff & tneff <= nco
        i
        tneff
        j = j + 1;
