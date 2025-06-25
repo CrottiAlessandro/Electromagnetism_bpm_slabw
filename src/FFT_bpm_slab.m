@@ -53,7 +53,7 @@ for i=1:npt
 end
 
 % Building the term of the Fresnel equation with refractive index changes
-guide = (guide.^2 - n0^2) / (2 * n0^2);% complete here; <========================================================================
+guide = (guide.^2 - n0^2) / (2 * n0^2);
 figure(1);
 plot(x,guide./max(guide),x,q),xlabel('x micron')
 pause
@@ -70,7 +70,7 @@ for iteration=1:1:niterations
    qs=exp(fact).*qs;
    q=ifft(fftshift(qs));
 % thin lens law operator
-   q = q .* exp(-j * xk * deltaz * guide);%q = q .* exp(-j * k0 * deltaz * guide); % complete here;     <========================================================================
+   q = q .* exp(-j * xk * deltaz * guide);%q = q .* exp(-j * k0 * deltaz * guide); 
 
 % saving field intensities profile
    if rem(iteration,njump)==0 
