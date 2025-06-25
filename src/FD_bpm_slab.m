@@ -70,7 +70,7 @@ end
 
 % Building the term of the Fresnel equation with refractive index changes
 
-guide=(guide.^2-n0^2)/(2*n0^2);%.... complete here; <========================================================================
+guide=(guide.^2-n0^2)/(2*n0^2);
 figure(1);
 plot(x,guide./max(guide),x,q),xlabel('x micron')
 pause
@@ -115,11 +115,11 @@ for iteration=1:1:niterations
   
      % TBC implementation: left border 
        arg=q(1)/q(2);
-       kxd= log(arg)/(-j*dx); % complete here; <========================================================================
-       if real(kxd)<0%.... complete here <========================================================================
+       kxd= log(arg)/(-j*dx); 
+       if real(kxd)<0
          
-         B(1) = B(2) + A(1) * exp(j*kxd*dx); %.....complete here; <========================================================================
-         R(1) = q(1)*B2(1) + q(1)*A2(1)*exp(j*kxd*dx) + C2(1)*q(2);%.... complete here +C2(1)*q(2); <========================================================================
+         B(1) = B(2) + A(1) * exp(j*kxd*dx); 
+         R(1) = q(1)*B2(1) + q(1)*A2(1)*exp(j*kxd*dx) + C2(1)*q(2);
        else
          R(1) = q(1)*B2(1) + q(2)*C2(1);
        end
@@ -130,7 +130,7 @@ for iteration=1:1:niterations
 
  % thin lens law operator
   
-  q = q .* exp(-j .* xk .* guide .* deltaz  );%.... complete here; <========================================================================
+  q = q .* exp(-j .* xk .* guide .* deltaz  );
    
 %
    if rem(iteration,n0alto)==0 
