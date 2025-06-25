@@ -1,0 +1,13 @@
+{
+   "Author": "crottiales",
+   "Comment": "",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF Time Domain",
+   "Last Solver Type Abb": "t",
+   "Mesh Cells": "122,625",
+   "Mesh Type": "Hexahedral",
+   "Modeler Unique ID": "5:es2.cst?6dae376856fa56b7210ab48b4e23fbf4?7881:numberofparameters=4:port=1>mode=1>zre=0>zim=0?port=1>mode=2>zre=0>zim=0?port=1>mode=3>zre=0>zim=0?port=1>mode=4>zre=0>zim=0?port=1>mode=5>zre=0>zim=0?port=2>mode=1>zre=0>zim=0?port=2>mode=2>zre=0>zim=0?port=2>mode=3>zre=0>zim=0?port=2>mode=4>zre=0>zim=0?port=2>mode=5>zre=0>zim=0:::a?b?l?s",
+   "ProjectVersion": "'# MWS Version: Version 2024.5 - Jun 14 2024 - ACIS 33.0.1 -",
+   "Results": "Port Modes",
+   "Version": "3"
+}

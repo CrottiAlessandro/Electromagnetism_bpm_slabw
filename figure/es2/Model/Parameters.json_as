@@ -1,0 +1,29 @@
+{
+    "parameters": [
+        {
+            "descr": "major size of the inner region",
+            "expr": "30",
+            "name": "a",
+            "value": "30"
+        },
+        {
+            "descr": "minor size of the inner region",
+            "expr": "12",
+            "name": "b",
+            "value": "12"
+        },
+        {
+            "descr": "thickness of the metal walls",
+            "expr": "3",
+            "name": "s",
+            "value": "3"
+        },
+        {
+            "descr": "length of the metallic waveguide",
+            "expr": "100",
+            "name": "l",
+            "value": "100"
+        }
+    ],
+    "version": 1
+}
