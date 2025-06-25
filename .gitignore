@@ -1,0 +1,60 @@
+# =================
+# MATLAB & Simulink
+# =================
+*.asv
+*.bak
+*.mex*
+*.p
+*.log
+pathdef.m
+*_mcr
+*mcr.app
+/deploy/
+/distrib/
+slprj/
+
+# =================
+# CST Studio Suite
+# =================
+# I file di progetto CST sono enormi e binari. NON caricarli.
+# Carica solo gli screenshot dei risultati e eventuali script VBA.
+*.cst
+*.cst.locked
+*.cst.bak
+*.cst.result
+*.cst-journal
+Result/
+Export/
+Model/Cache/
+*.log
+*.lst
+*.mcr
+*.plt
+*.sig
+*.res
+*.sol
+*.xml
+*.txt
+
+# =================
+# LaTeX
+# =================
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+_build/
+
+# =================
+# OS Generated files
+# =================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
